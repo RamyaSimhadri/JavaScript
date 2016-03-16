@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<htmllang="en">
+	<head>
+			<!--Varaible scope-where am i allowed to use inside of my program
+			Global Varaibles-Declared outside of the function and allowed to use anywhere in the program
+			local variable-declared and allowed to use inside of the function-->
+		<title>JavaScript-Global and loacal varaibles</title>
+
+		<script type="text/javascript">
+			//var champion="fizz";//Global variable
+			
+			function printChampion(){
+				var champion="fizz";//local variable
+				document.write(champion + "inside function");
+			}
+			
+			printChampion();
+			document.write(champion + "outside function");
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
